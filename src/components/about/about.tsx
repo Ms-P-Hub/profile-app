@@ -4,7 +4,7 @@ export const About = () => {
       <section className="bg-secondaryDark flex items-center py-2">
         <section>
           <h1 className="text-5xl">
-            Hi, I'm <span className="text-red-400">Gugu Mokwena</span>
+            Hi, I'm <span className="text-red-400">Gugu P. Mokwena</span>
           </h1>
           <h2 className="text-4xl">Final-year Student in Software Engineering at Wethinkcode_ and Diploma in Computer Science Student at Tshwane University of Technology.</h2>
           <button
