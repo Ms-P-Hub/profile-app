@@ -1,10 +1,10 @@
-import { Header } from '..'
+import { About } from "..";
+
 export function App() {
 
+
   return (
-    <>
-      <Header/>
-    </>
+  <About/>
   )
 }
 
