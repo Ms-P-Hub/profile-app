@@ -1,5 +1,8 @@
 import React from "react";
 import { ProfilePic } from "../../assets";
+import { Present} from "../../assets";
+import { Prototype } from "../../assets";
+import { Pitch } from "../../assets";
 export const About = () => {
   return (
     <main className=" px-8">
@@ -7,7 +10,7 @@ export const About = () => {
         <img
           src={ProfilePic}
           alt="Gugu Mokwena"
-          className="rounded-full h-40 w-40 mx-auto"
+          className="rounded-full h-60 w-60 mx-auto"
         />
         <section>
           <h1 className="text-5xl flex justify-center">
@@ -85,9 +88,9 @@ export const About = () => {
       <section className="">
         <h2 className="text-5xl flex justify-center">Portfolio</h2>
         <section className="flex items-center gap-4">
-          <section className="flex justify-between gap-4 w-full">
+          <section className="flex justify-between gap-4 w-full items-center">
             <section className=" flex flex-col w-1/3">
-              <img src="https://picsum.photos/400/300" />
+              <img src={Prototype}/>
               <a
                 className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
                 href="https://www.youtube.com/shorts/lXXjhAZHfSA"
@@ -97,7 +100,7 @@ export const About = () => {
               </a>
             </section>
             <section className=" flex flex-col w-1/3 ">
-              <img src="https://picsum.photos/400/300" className="" />
+              <img src={Present}/>
               <a
                 className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
                 href="https://youtu.be/wFggLJsn1Qw"
@@ -107,7 +110,7 @@ export const About = () => {
               </a>
             </section>
             <section className="flex flex-col w-1/3">
-              <img src="https://picsum.photos/400/300" />
+              <img src={Pitch}/>
               <a
                 className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
                 href="https://drive.google.com/file/d/1OMD7wbPcFcHLZwkYBj45bM6kGp6PX42J/view?usp=drive_link"
