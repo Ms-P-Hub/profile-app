@@ -1,3 +1,4 @@
+import React from "react";
 import { ProfilePic } from "../../assets";
 export const About = () => {
   return (
