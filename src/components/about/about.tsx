@@ -1,8 +1,8 @@
 import { ProfilePic } from "../../assets";
 export const About = () => {
   return (
-    <main className="h-screen px-8">
-      <section className="flex flex-col gap-4 py-6">
+    <main className=" px-8">
+      <section className="flex flex-col gap-4 py-6 justify-center h-2/3">
         <img
           src={ProfilePic}
           alt="Gugu Mokwena"
@@ -10,12 +10,16 @@ export const About = () => {
         />
         <section>
           <h1 className="text-5xl flex justify-center">
-            Hi, I'm <span className="text-red-400">Gugu P. Mokwena</span>
+            Hi, I'm <span className="text-red-400">{` Gugu P. Mokwena`}</span>
           </h1>
-          <h2 className="text-sm text-gray-600 flex justify-center">
-            Final-year Student in Software Engineering at Wethinkcode_ and
-            Diploma in Computer Science Student at Tshwane University of
-            Technology.
+          <h2 className="text-sm italic text-gray-600 flex justify-center">
+            Final-year Student in Software Engineering at{" "}
+            <span className="text-blue-400">{` WeThinkCode_ `}</span>and Diploma
+            in Computer Science Student at{" "}
+            <span className="text-blue-400">
+              {` Tshwane University of Technology`}
+            </span>
+            .
           </h2>
         </section>
       </section>
@@ -80,27 +84,44 @@ export const About = () => {
       <section className="">
         <h2 className="text-5xl flex justify-center">Portfolio</h2>
         <section className="flex items-center gap-4">
-          <section className="flex">
-            <p>
+          <section className="flex justify-between gap-4 w-full">
+            <section className=" flex flex-col w-1/3">
+              <img src="https://picsum.photos/400/300" />
               <a
-                className="text-blue-400 text-xs bg-[#F87171] w-full"
+                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
                 href="https://www.youtube.com/shorts/lXXjhAZHfSA"
                 target="_blank"
               >
-                <img src="https://picsum.photos/400/300" />
-                View Project Prototype:
+                View Project Prototype
               </a>
-            </p>
+            </section>
+            <section className=" flex flex-col w-1/3 ">
+              <img src="https://picsum.photos/400/300" className="" />
+              <a
+                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
+                href="https://youtu.be/wFggLJsn1Qw"
+                target="_blank"
+              >
+                View Project Presentation
+              </a>
+            </section>
+            <section className="flex flex-col w-1/3">
+              <img src="https://picsum.photos/400/300" />
+              <a
+                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
+                href="https://drive.google.com/file/d/1OMD7wbPcFcHLZwkYBj45bM6kGp6PX42J/view?usp=drive_link"
+                target="_blank"
+              >
+                Project Slide Deck
+              </a>
+            </section>
           </section>
-          <p>Project Presentation: https://youtu.be/wFggLJsn1Qw</p>
-          <p>
-            Project Slide Deck:
-            https://drive.google.com/file/d/1OMD7wbPcFcHLZwkYBj45bM6kGp6PX42J/view?usp=drive_link
-          </p>{" "}
         </section>
       </section>
-      <section className="flex justify-between items-center gap-5 bg-[#F87171] min-h-[240px] px-20 ">
-        <h2 className="text-5xl">Personal Elevator Pitch</h2>
+      <section className="">
+        <h2 className="text-5xl justify-center flex">
+          Personal Elevator Pitch
+        </h2>
       </section>
     </main>
   );
