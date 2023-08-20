@@ -1,7 +1,7 @@
 import { ProfilePic } from "../../assets";
 export const About = () => {
   return (
-    <main className="h-screen">
+    <main className="h-screen px-8">
       <section className="flex flex-col gap-4 py-6">
         <img
           src={ProfilePic}
@@ -10,7 +10,7 @@ export const About = () => {
         />
         <section>
           <h1 className="text-5xl flex justify-center">
-            Hi, I'm <span className="text-red-400"> Gugu P. Mokwena</span>
+            Hi, I'm <span className="text-red-400">Gugu P. Mokwena</span>
           </h1>
           <h2 className="text-sm text-gray-600 flex justify-center">
             Final-year Student in Software Engineering at Wethinkcode_ and
@@ -24,7 +24,7 @@ export const About = () => {
         <h2 className="text-5xl flex justify-center">BIO </h2>
         <section className="grid gap-6 items-center grid-cols-3">
           <section className="rounded-lg p-6 border border-[#F87171]">
-            <h4 className="text-xl flex justify-center">💼</h4>
+            <h4 className="text-xl flex justify-center">💼 Title</h4>
             <p>
               Hey, I'm Gugu Mokwena, also known as Gnerd. I'm a final-year
               Software Engineering student at Wethinkcode_ and pursuing a
@@ -32,9 +32,8 @@ export const About = () => {
             </p>
           </section>
           <section className="rounded-lg p-6 border border-[#F87171]">
-            <h4 className="text-xl flex justify-center">🌟</h4>
+            <h4 className="text-xl flex justify-center">🌟 Passion</h4>
             <p className="">
-              {" "}
               Juggling multiple roles and responsibilities at a young age, I'm
               driven by a passion for technology and a thirst for knowledge. As
               a Software Engineer in the making, I'm constantly honing my skills
@@ -42,27 +41,27 @@ export const About = () => {
             </p>
           </section>
           <section className="rounded-lg p-6 border border-[#F87171]">
-            <h4 className="text-xl flex justify-center">🌟</h4>
+            <h4 className="text-xl flex justify-center">🌟 Side Hustle</h4>
             <p className="">
               Alongside my studies, I've been actively involved in co-founding
               Gnerd, a personal brand that embodies my dedication to all things
               tech. Collaborating with Refilwe Mashile, we're on a mission to
               bring innovative solutions and creativity to the forefront.
             </p>
-          </section>{" "}
+          </section>
           <section className="rounded-lg p-6 border border-[#F87171]">
-            <h4 className="text-xl flex justify-center">🌟</h4>
+            <h4 className="text-xl flex justify-center">🚀Milestones</h4>
             <p className="">
-              🚀 On my journey, I've achieved some remarkable milestones.
-              Winning a hackathon as a solo member of a team stands out as a
-              testament to my problem-solving abilities and determination. It's
-              a testament to my willingness to embrace challenges head-on.
+              On my journey, I've achieved some remarkable milestones. Winning a
+              hackathon as a solo member of a team stands out as a testament to
+              my problem-solving abilities and determination. It's a testament
+              to my willingness to embrace challenges head-on.
             </p>
           </section>
           <section className="rounded-lg p-6 border border-[#F87171]">
-            <h4 className="text-xl flex justify-center">🌟</h4>
+            <h4 className="text-xl flex justify-center">🎯Aspiration</h4>
             <p className="">
-              🎯 My aspirations are clear - I'm determined to complete all my
+              My aspirations are clear - I'm determined to complete all my
               certifications, further sharpening my skills, and launching into
               the corporate world with enthusiasm. I'm excited to contribute my
               energy, creativity, and technical prowess to the field of software
@@ -70,10 +69,10 @@ export const About = () => {
             </p>
           </section>
           <section className="rounded-lg p-6 border border-[#F87171]">
-            <h4 className="text-xl flex justify-center">🌟</h4>{" "}
+            <h4 className="text-xl flex justify-center">🌟 Open To</h4>
             <p className="">
               Let's connect and collaborate on exciting tech ventures!
-            </p>{" "}
+            </p>
           </section>
         </section>
       </section>
@@ -82,14 +81,14 @@ export const About = () => {
         <h2 className="text-5xl flex justify-center">Portfolio</h2>
         <section className="flex items-center gap-4">
           <section className="flex">
-            
             <p>
-             
               <a
-                className="text-blue-400 text-xs"
+                className="text-blue-400 text-xs bg-[#F87171] w-full"
                 href="https://www.youtube.com/shorts/lXXjhAZHfSA"
                 target="_blank"
-              ><img src=''/>View Project Prototype:{" "}
+              >
+                <img src="https://picsum.photos/400/300" />
+                View Project Prototype:
               </a>
             </p>
           </section>
