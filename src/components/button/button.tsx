@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { ButtonProps } from './types'
+import React from 'react'
 
 export const Button: FC<ButtonProps> = ({ children, btnType }) => {
     let style = "text-xs"

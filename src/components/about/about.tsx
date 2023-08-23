@@ -92,7 +92,7 @@ export const About = () => {
             <section className=" flex flex-col w-1/3">
               <img src={Prototype}/>
               <a
-                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
+                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px'] py-2 rounded-full"
                 href="https://www.youtube.com/shorts/lXXjhAZHfSA"
                 target="_blank"
               >
@@ -102,7 +102,7 @@ export const About = () => {
             <section className=" flex flex-col w-1/3 ">
               <img src={Present}/>
               <a
-                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
+                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px'] py-2 rounded-full"
                 href="https://youtu.be/wFggLJsn1Qw"
                 target="_blank"
               >
@@ -112,7 +112,7 @@ export const About = () => {
             <section className="flex flex-col w-1/3">
               <img src={Pitch}/>
               <a
-                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px']"
+                className="text-white hover:bg-[#ed9f9f] hover:text-lg text-sm font-semibold flex justify-center bg-[#F87171] w-['400px'] py-2 rounded-full"
                 href="https://drive.google.com/file/d/1OMD7wbPcFcHLZwkYBj45bM6kGp6PX42J/view?usp=drive_link"
                 target="_blank"
               >
@@ -123,9 +123,12 @@ export const About = () => {
         </section>
       </section>
       <section className="">
-        <h2 className="text-5xl justify-center flex">
-          Personal Elevator Pitch
+        <h2 className="text-5xl justify-center flex py-3">
+        Personal Elevator Pitch
         </h2>
+        <section className="flex justify-center">
+        <iframe  width="848" height="480" src="https://www.youtube.com/embed/S9EDzKgaDy0" title="Elevator Pitch | ALX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
       </section>
     </main>
   );
